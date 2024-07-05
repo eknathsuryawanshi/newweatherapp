@@ -1,0 +1,36 @@
+.wetherBg{
+  background: url("./assets/weather.jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.heading{
+  color:white;
+  font-weight: 700;
+}
+.wetherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0px 0px 14px -7px black;
+}
+.weathorIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weathorCity{
+  font-size: 35px;
+}
+.weathorTemp{
+  font-size:55px;
+  font-weight: 700;
+}
+.btn_on_click{
+  width: inherit;
+  margin-top: 20px;
+}
